@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	font-size: calc(1vw);
+	text-align: center;
+}
+
+#MainDiv {
+	position: absolute;
+	background-color: #222;
+	width: 100rem;
+	height: calc(100vh);
+}
+
+#GalleryDiv {
+	position: absolute;
+	background-color: #222;
+	width: 100rem;
+	height: calc(100vh);
+	overflow: hidden;
+}
+
+#GalleryStuffOut {
+	width: calc(100vw);
+	background-color: #222;
+	height: calc(86vh);
+	overflow: scroll;
+}
+
+#GalleryStuff {
+	width: calc(100vw);
+	background-color: #222;
+	max-height: 100%;
+}
+
+#GalleryStuff div {
+	width: 26rem;
+	height: 26rem;
+	overflow: hidden;
+	background-color: #aaa;
+	display: inline-block;
+	margin: 5.5rem 2.75rem 0 2.75rem;
+}
+
+#GalleryStuff div img {
+	width: 26rem;
+}
+
+#ImgDiv {
+	padding: 5rem 5rem 0 5rem;
+	text-align: center;
+	height: calc(75vh);
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	line-height: calc(75vh);
+}
+
+#ImgDiv img {
+	display: block;
+	width: 100%;
+	margin: auto;
+	background-color: #eee;
+
+}
+
+.Select img {
+	height: 10rem;
+	margin: auto;
+	display: block;
+}
+
+.Select {
+	display: flex;
+	align-items: center;
+	background-color: #eee;
+	height: 14rem;
+	width: 38rem;
+	line-height: 14rem;
+	border-radius: 8rem;
+	position: absolute;
+	bottom: 12%;
+}
+
+.Select2 {
+	background-color: #eee;
+	height: 14rem;
+	width: 76rem;
+	left: 12rem;
+	border-radius: 8rem;
+	position: absolute;
+	bottom: 2%;
+	text-align: center;
+	line-height: 14rem;
+	overflow: hidden;
+	font-size: 6rem;
+	font-weight: bold;
+}
+
+.Select3 {
+	background-color: #eee;
+	height: 14rem;
+	width: 76rem;
+	left: 12rem;
+	border-radius: 8rem;
+	position: absolute;
+	bottom: 2%;
+	text-align: center;
+	line-height: 14rem;
+	overflow: hidden;
+	font-size: 6rem;
+	font-weight: bold;
+}
+
+.Left {
+	left: 6.5rem;
+}
+
+.Right {
+	right: 6.5rem;
+}
+#DetailViwer{
+	height: calc(95vh);
+}
+#DetailViwer .Select {
+	display: flex;
+	align-items: center;
+	background-color: #eee;
+	height: 14rem;
+	width: 38rem;
+	line-height: 14rem;
+	border-radius: 8rem;
+	position: absolute;
+	bottom: 4%;
+}
+
+#ImgBox {
+	width: calc(90vw);
+	height: calc(80vh);
+	overflow: auto;
+	position: relative;
+	margin: calc(5vw);
+	display: flex;
+	align-items: center;
+}
+#ImgBox img{
+	width: 100%;
+}
+
+/* style="animation: RouteAndOut 1s ease-in-out forwards;" */

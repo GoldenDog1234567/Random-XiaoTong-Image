@@ -1,0 +1,45 @@
+<head>
+	<link rel="stylesheet" href="./css/my.css">
+	<link rel="stylesheet" href="./css/animate.css">
+	<script src="./js/mui.js"></script>
+	<script src="./js/mui.min.js"></script>
+</head>
+
+<body style="background-color: #333;">
+	<div id="MainDiv" style="display: block;">
+		<div id="ImgDiv">
+			<img onclick="FromMainToDetailTheImg(this)" id="Img" src="./img/Tong6-2.png" style="animation: ImgIn 1s ease-in-out forwards;">
+		</div>
+		<div class="Select Left" onclick="RandomImgLeft()">
+			<img src="./svg/repeat.svg">
+		</div>
+		<div class="Select Right" onclick="RandomImgRight()">
+			<img src="./svg/heart.svg">
+		</div>
+		<div class="Select2" id="Menu" onclick="ToGallery(),GalleryImageSet()">
+			G&nbsp;a&nbsp;l&nbsp;l&nbsp;e&nbsp;r&nbsp;y</div>
+	</div>
+	<div id="GalleryDiv" style="display: none;">
+		<div id="GalleryStuffOut">
+			<div id="GalleryStuff">
+			</div>
+		</div>
+		<div class="Select2" id="Menu" onclick="BackToMain()">B&nbsp;a&nbsp;c&nbsp;k</div>
+	</div>
+	<div id="DetailViwer" style="display: none;">
+		<div id="ImgBox" style="display: flex;">
+			<img id="DetailImg" src="./img/Tong4.png">
+		</div>
+		<div class="Select Left" id="FromGallery" onclick="BackToGallery()" style="display: none;">
+			<img src="./svg/arrow-back-outline.svg">
+		</div>
+		<div class="Select Left" id="FromMain" onclick="DetailBackToMain()" style="display: none;">
+			<img src="./svg/arrow-back-outline.svg">
+		</div>
+		<div class="Select Right" onclick="GetDownloadLink()">
+			<img src="./svg/download-outline.svg">
+		</div>
+	</div>
+</body>
+<script src="./js/script.js"></script>
+<!-- <script src="./js/get.js"></script> -->
