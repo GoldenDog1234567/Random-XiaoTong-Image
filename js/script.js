@@ -42,7 +42,7 @@ function RandomImgLeft() {
 	var img = document.getElementById('Img');
 	img.style = "animation: RouteAndOutLeft 1s ease-in-out forwards;"
 	setTimeout(function () {
-		document.getElementById("ImgDiv").innerHTML = '<img onclick="FromMainToDetailTheImg(this)" id="Img" src="' + ImgList[RNum] + '" style="animation: ImgIn 1s ease-in-out forwards;">'
+		document.getElementById("ImgDiv").innerHTML = '<img onclick="FromMainToDetailTheImg(this)" id="Img" src="https://mirror.ghproxy.com/' + ImgList[RNum] + '" style="animation: ImgIn 1s ease-in-out forwards;">'
 	}, 1000);
 
 }
