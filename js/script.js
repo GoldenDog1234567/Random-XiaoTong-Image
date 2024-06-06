@@ -24,6 +24,7 @@ mui.ajax(url, {
 	},
 	error: function (xhr, type, errorThrown) {
 		print(xhr, type, errorThrown)
+		alert("GitHubAPI炸了")
 	}
 });
 /**/
@@ -31,7 +32,7 @@ print(Rdata)
 DivW = document.body.clientWidth * 0.9
 DivH = document.body.clientHeight * 0.8
 if (Rdata.length==0){
-	Rdata = ["./img/Tong6-2.png", "./img/Tong6-1.png", "./img/Tong4.png", "./img/Tong3.png", "./img/Tong3-1.png", "./img/Tong1.png"]
+	Rdata = ["./img/Tong6-2.png", "./img/Tong6-1.png"]
 }
 	
 function RandomImgLeft() {
