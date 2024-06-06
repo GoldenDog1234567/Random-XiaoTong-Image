@@ -2,7 +2,7 @@ function print(a) {
 	console.log(a)
 }
 url = "https://api.github.com/repos/GoldenDog1234567/Random-XiaoTong-Image/contents/img"
-var ImgList = ["./img/Tong6-2.png", "./img/Tong6-1.png", "./img/Tong4.png", "./img/Tong3.png", "./img/Tong3-1.png", "./img/Tong1.png"]
+var ImgList = ["./img/Tong6-2.png", "./img/Tong6-1.png"]
 /**/
 Rdata=[]
 mui.ajax(url, {
